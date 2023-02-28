@@ -1,0 +1,41 @@
+.add-comment {
+  width: 100%;
+  background: var(--white);
+  border-radius: 0.625rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.add-comment-input {
+  outline: none;
+  border: 2px solid var(--light-gray);
+  padding: 0.7rem 0.9rem;
+  font-size: 1rem;
+  resize: none;
+  border-radius: 0.5rem;
+}
+
+.add-comment div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.add-comment div img {
+  width: 40px;
+}
+
+.add-comment div button {
+  border: none;
+  background: var(--moderate-blue);
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  color: var(--white);
+  font-size: 1rem;
+  letter-spacing: 1px;
+  font-weight: 700;
+  cursor: pointer;
+}
