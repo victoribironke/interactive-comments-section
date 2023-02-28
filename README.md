@@ -26,7 +26,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://react-comments-section.netlify.app)
+- Live Site URL: [Interactive Comments Section](https://react-comments-section.netlify.app)
 
 ## My process
 
