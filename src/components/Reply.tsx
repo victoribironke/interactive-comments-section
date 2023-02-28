@@ -25,12 +25,12 @@ const Reply = (props: ReplyProps) => {
         <p className="text">{props.text}</p>
       </div>
       <div className="score">
-        <img src="src/assets/icon-plus.svg" alt="plus" onClick={increment} />
+        <img src="/icon-plus.svg" alt="plus" onClick={increment} />
         {score}
-        <img src="src/assets/icon-minus.svg" alt="minus" onClick={decrement} />
+        <img src="/icon-minus.svg" alt="minus" onClick={decrement} />
       </div>
       {/* <div className="reply">
-          <img src="src/assets/icon-reply.svg" alt="reply" />
+          <img src="/icon-reply.svg" alt="reply" />
           Reply
         </div> */}
     </div>
